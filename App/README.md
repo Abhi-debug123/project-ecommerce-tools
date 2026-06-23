@@ -11,12 +11,12 @@ This chatbot currently supports two intents:
 - **faq**: Triggered when users ask questions related to the platform's policies or general information. eg. Is online payment available?
 - **sql**: Activated when users request product listings or information based on real-time database queries. eg. Show me all nike shoes below Rs. 3000.
 
-![Product screenshot ](Resource/product-ss.png)
+![Product screenshot ](../Resource/product-ss.png)
 
 
 ## Architecture
 
-![architecture diagram of the e-commerce chatbot](Resource/architecture-diagram.png)
+![architecture diagram of the e-commerce chatbot](../Resource/architecture-diagram.png)
 
 
 ### Set-up & Execution
