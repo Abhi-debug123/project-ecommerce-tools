@@ -27,11 +27,21 @@ sql = Route(
         score_threshold=0.4
 )
 
-router = SemanticRouter(routes=[faq, sql],encoder=encoder,auto_sync="local")
+small= Route(
+    name= 'small_talk',
+    utterances=['How are you?',
+                'What is your name?',
+                'Are you a robot?',
+                'What are you?',
+                'What do you do?']
+                  )
+
+router = SemanticRouter(routes=[faq, sql, small],encoder=encoder,auto_sync="local")
 
 if __name__=='__main__':
     print(router("show me top 3 nike shoes with the rating higher than 4.5").name)
     print(router("Pink puma shoes in price range 5000 to 1000").name)
+    print(router("what is your name").name)
 
 
 

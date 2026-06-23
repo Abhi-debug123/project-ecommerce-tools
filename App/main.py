@@ -3,6 +3,7 @@ from router import router
 from faq import ingest_faq_data, faq_chain
 from pathlib import Path
 from sql import sql_chain
+from smalltalk import talk
 
 faqs_path = Path(__file__).parent.parent/"Resource/faq_data.csv"
 ingest_faq_data(faqs_path)
@@ -14,6 +15,8 @@ def ask(query):
         return faq_chain(query)
     elif route=='sql':
         return sql_chain(query)
+    elif route=='small_talk':
+        return talk(query)
     else:
         return f"Route {route} not implemented yet"
 
