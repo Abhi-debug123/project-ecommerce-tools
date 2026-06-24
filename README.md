@@ -12,12 +12,12 @@ This chatbot currently supports three intents:
 - **sql**: Activated when users request product listings or information based on real-time database queries. eg. Show me all nike shoes below Rs. 3000.
 - **small-talk**: Triggered for casual conversational queries not related to products or policies. eg. How are you? What is your name?
 
-![Product screenshot](../Resource/product-ss.png)
+![Product screenshot](https://raw.githubusercontent.com/Abhi-debug123/project-ecommerce-tools/main/Resource/product-ss.png)
 
 
 ## Architecture
 
-![architecture diagram of the e-commerce chatbot](../Resource/8bf22534-2526-4827-b330-bdf97b971306.jpg)
+![architecture diagram of the e-commerce chatbot](https://raw.githubusercontent.com/Abhi-debug123/project-ecommerce-tools/main/Resource/8bf22534-2526-4827-b330-bdf97b971306.jpg)
 
 
 ### Set-up & Execution
